@@ -9,7 +9,6 @@ public class UnitAttack : MonoBehaviour
     [SerializeField] private float _damage;
 
     private Animator _animator;
-    private string _currentState;
 
     public bool IsAttacking { get; private set; }
 

@@ -10,8 +10,6 @@ public class EnemyAttack : MonoBehaviour
 
     private Animator _animator;
 
-    public bool IsAttacking { get; private set; }
-
     private void Awake()
     {
         _animator = GetComponent<Animator>();

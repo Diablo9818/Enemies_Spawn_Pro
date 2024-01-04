@@ -28,10 +28,10 @@ public class EnemyMove : MonoBehaviour
 
     private void Move()
     {
-        _rigidbody2D.velocity = FindDirection() * _moveSpeed;
+        _rigidbody2D.velocity = CalculateDirection() * _moveSpeed;
     }
 
-    private Vector3 FindDirection()
+    private Vector3 CalculateDirection()
     {
         return (_target.position - transform.position).normalized;
     }

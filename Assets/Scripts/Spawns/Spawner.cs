@@ -9,7 +9,6 @@ public class Spawner : MonoBehaviour
 
     [SerializeField] private Vector3 _spawnPosition = new Vector3(-7f, -0.6f);
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
